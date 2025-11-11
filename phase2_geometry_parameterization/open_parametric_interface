@@ -1,0 +1,12 @@
+# builds OpenSCAD command string
+
+import subprocess, os
+
+def generate_stl(params_dict, output_name="hand.stl"):
+    params_str = ";".join([f"{k}={v}" for k,v in params_dict.items()])
+    subprocess.run([
+        "openscad",
+        "-o", f"outputs/stl/{output_name}",
+        "-D", params_str,
+        "OpenSCAD/parameters.scad"
+    ])
