@@ -1,12 +1,7 @@
 # LLM-Driven Prosthetic Hand Design Pipeline
 
-An end-to-end automated pipeline for generating task-specific, 3D-printable prosthetic hand designs using Large Language Models and formal grammar systems.
 
-## Overview
-
-This project implements a multi-phase pipeline that transforms high-level task descriptions into validated, printable prosthetic hand designs. By combining LLM semantic understanding with formal design grammars and morphological constraints, the system generates diverse, functional hand designs optimized for specific manipulation tasks.
-
-## Pipeline Architecture
+## Pipeline 
 
 ### Phase 1: Dual-Level Task Analysis
 
